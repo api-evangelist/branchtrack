@@ -1,7 +1,15 @@
 aid: branchtrack
 name: Branchtrack
-description: Branchtrack is a company surfaced as a portfolio company of seedcamp and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  BranchTrack is a browser-based authoring platform for building interactive branching
+  scenarios and conversation simulations used in corporate learning and development. Instructional
+  designers and L&D teams create decision-tree simulations with no coding or design skills,
+  then deploy them inside existing LMS platforms or embed them into courses authored in
+  Articulate Storyline, Rise, Adobe Captivate, Gomo, and Lectora. Simulations export as SCORM
+  and xAPI (Tin Can) packages and can be shared as responsive, mobile-native experiences with
+  learner analytics and completion tracking. BranchTrack is a portfolio company of Seedcamp.
+  The platform exposes no first-party developer API, SDK, or developer portal; third-party
+  embedding is available via the Embedly oEmbed provider, and LMS delivery via SCORM/xAPI.
 url: https://raw.githubusercontent.com/api-evangelist/branchtrack/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +17,31 @@ x-backed-by:
 - seedcamp
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://cdn.prod.website-files.com/667818cbd82b629495c3df51/667e541e4ba159ebe38a1256_BT%20Open%20Graph%20Image.png
 tags:
 - Company
+- E-Learning
+- Learning and Development
+- Instructional Design
+- Simulations
+- Branching Scenarios
+- SCORM
+- xAPI
+- Training
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +50,23 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://branchtrack.com
+  url: https://www.branchtrack.com
+- type: Pricing
+  url: https://www.branchtrack.com/pricing
+- type: SignUp
+  url: https://www.branchtrack.com/signup
+- type: Login
+  url: https://www.branchtrack.com/login
+- type: TermsOfService
+  url: https://www.branchtrack.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.branchtrack.com/privacy-policy
+- type: Support
+  url: https://branchtrack.zammad.com/help/
+- type: DomainSecurity
+  url: security/branchtrack-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
